@@ -1,0 +1,20 @@
+name: Update PR Activity README
+
+on:
+  schedule:
+    # 设置定时任务：每 12 小时自动巡查一次你的最新开源动态
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # 提供一个按钮，允许你随时手动强制触发更新
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update this repo's README with recent activity
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "⚡ 自动更新：最近的开源动态和 PR"
+          MAX_LINES: 7 # 你可以修改数字来决定展示几条最近的动态
