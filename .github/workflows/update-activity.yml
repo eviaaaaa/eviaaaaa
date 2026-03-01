@@ -16,5 +16,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          FILTER_EVENTS: PullRequestEvent
           COMMIT_MSG: "⚡ 自动更新：最近的开源动态和 PR"
           MAX_LINES: 7 # 你可以修改数字来决定展示几条最近的动态
