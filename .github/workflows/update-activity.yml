@@ -2,20 +2,76 @@ name: Update PR Activity README
 
 on:
   schedule:
-    # 设置定时任务：每 12 小时自动巡查一次你的最新开源动态
+    # 设置定时任务：每 12 小时自动巡查一次你的最新 PR
     - cron: "0 */12 * * *"
   workflow_dispatch: # 提供一个按钮，允许你随时手动强制触发更新
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
+    name: Update this repo's README with recent PRs
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: actions/checkout@v4
+
+      - name: Generate PR list and update README
+        id: update_readme
+        uses: actions/github-script@v7
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+          TARGET_FILE: README.md
+          MAX_LINES: 7
         with:
-          FILTER_EVENTS: PullRequestEvent
-          COMMIT_MSG: "⚡ 自动更新：最近的开源动态和 PR"
-          MAX_LINES: 7 # 你可以修改数字来决定展示几条最近的动态
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const username = process.env.GH_USERNAME;
+            const targetFile = process.env.TARGET_FILE || 'README.md';
+            const maxLines = Number(process.env.MAX_LINES || 7);
+
+            const query = `author:${username} is:pr`;
+            const res = await github.rest.search.issuesAndPullRequests({
+              q: query,
+              sort: 'updated',
+              order: 'desc',
+              per_page: maxLines,
+            });
+
+            const prs = res.data.items || [];
+            const lines = prs.map((item, index) => {
+              const matched = item.html_url.match(/github\.com\/([^/]+\/[^/]+)\/pull\//);
+              const repo = matched ? matched[1] : 'unknown/unknown';
+              return `${index + 1}. [${item.title}](${item.html_url}) in [${repo}](https://github.com/${repo})`;
+            });
+
+            const rendered = lines.length > 0
+              ? lines.join('\n')
+              : '1. 暂无可展示的 PR';
+
+            const start = '<!--START_SECTION:activity-->';
+            const end = '<!--END_SECTION:activity-->';
+            const original = fs.readFileSync(targetFile, 'utf8');
+
+            const startIdx = original.indexOf(start);
+            const endIdx = original.indexOf(end);
+            if (startIdx === -1 || endIdx === -1 || startIdx >= endIdx) {
+              core.setFailed('README 中未找到有效的 activity 注释区块');
+              return;
+            }
+
+            const before = original.slice(0, startIdx + start.length);
+            const after = original.slice(endIdx);
+            const updated = `${before}\n${rendered}\n${after}`;
+
+            fs.writeFileSync(targetFile, updated);
+            core.setOutput('changed', original !== updated ? 'true' : 'false');
+
+      - name: Commit and push
+        if: steps.update_readme.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "⚡ 自动更新：最近的 PR 列表"
+          git push
