@@ -1,6 +1,5 @@
-## Hi there 👋
 
-## 🚀 近期开源贡献与 PR 战绩
+## 🚀 近期开源贡献
 <!--START_SECTION:activity-->
 1. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
 2. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
