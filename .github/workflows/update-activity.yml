@@ -21,33 +21,53 @@ jobs:
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           TARGET_FILE: README.md
-          MAX_LINES: 7
+          PAGE_SIZE: 7
+          MAX_PAGES: 5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const username = process.env.GH_USERNAME;
             const targetFile = process.env.TARGET_FILE || 'README.md';
-            const maxLines = Number(process.env.MAX_LINES || 7);
+            const pageSize = Number(process.env.PAGE_SIZE || 7);
+            const maxPages = Number(process.env.MAX_PAGES || 5);
+            const maxItems = pageSize * maxPages;
 
             const query = `author:${username} is:pr`;
             const res = await github.rest.search.issuesAndPullRequests({
               q: query,
               sort: 'updated',
               order: 'desc',
-              per_page: maxLines,
+              per_page: maxItems,
             });
 
             const prs = res.data.items || [];
-            const lines = prs.map((item, index) => {
-              const matched = item.html_url.match(/github\.com\/([^/]+\/[^/]+)\/pull\//);
-              const repo = matched ? matched[1] : 'unknown/unknown';
-              return `${index + 1}. [${item.title}](${item.html_url}) in [${repo}](https://github.com/${repo})`;
-            });
+            
+            const chunks = [];
+            for (let i = 0; i < prs.length; i += pageSize) {
+              chunks.push(prs.slice(i, i + pageSize));
+            }
 
-            const rendered = lines.length > 0
-              ? lines.join('\n')
-              : '1. 暂无可展示的 PR';
+            let rendered = '';
+            if (chunks.length === 0) {
+              rendered = '1. 暂无可展示的 PR';
+            } else {
+              rendered += chunks[0].map((item, idx) => {
+                const matched = item.html_url.match(/github\.com\/([^/]+\/[^/]+)\/pull\//);
+                const repo = matched ? matched[1] : 'unknown/unknown';
+                return `${idx + 1}. [${item.title}](${item.html_url}) in [${repo}](https://github.com/${repo})`;
+              }).join('\n');
+
+              for (let i = 1; i < chunks.length; i++) {
+                rendered += `\n\n<details>\n<summary><b>👉 翻页查看更多 (第 ${i + 1} 页)</b></summary>\n\n`;
+                rendered += chunks[i].map((item, idx) => {
+                  const matched = item.html_url.match(/github\.com\/([^/]+\/[^/]+)\/pull\//);
+                  const repo = matched ? matched[1] : 'unknown/unknown';
+                  return `${i * pageSize + idx + 1}. [${item.title}](${item.html_url}) in [${repo}](https://github.com/${repo})`;
+                }).join('\n');
+                rendered += '\n\n</details>';
+              }
+            }
 
             const start = '<!--START_SECTION:activity-->';
             const end = '<!--END_SECTION:activity-->';
