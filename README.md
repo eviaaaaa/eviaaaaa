@@ -1,8 +1,8 @@
 
 ## 🚀 近期开源贡献
 <!--START_SECTION:activity-->
-1. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/CoPaw/pull/936) in [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw)
-2. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
+1. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
+2. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/CoPaw/pull/936) in [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw)
 3. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 4. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
 5. [refactor(word): lazy-load DOCX images to reduce peak memory without changing output](https://github.com/infiniflow/ragflow/pull/13233) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
