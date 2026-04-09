@@ -20,8 +20,8 @@
 
 ## 🚀 近期开源贡献
 <!--START_SECTION:activity-->
-1. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-2. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+1. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+2. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 3. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
 4. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
 5. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
