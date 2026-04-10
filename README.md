@@ -1,9 +1,8 @@
-# Hi there, I'm eviaaaaa 👋
-
-## 👨‍💻 关于我
-- 📧 **邮箱**: w2278596667@gmail.com
-- 🎯 **方向标签**: AI 应用开发、Python 后端开发
-## 🛠️ 技术栈
+** Hi there, I'm eviaaaaa **
+##  关于我
+-  **邮箱**: w2278596667@gmail.com
+-  **方向标签**: AI 应用开发、Python 后端开发
+##  技术栈
 
 | 分类 | 技术工具 |
 | :--- | :--- |
@@ -13,11 +12,11 @@
 | **数据库** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" /> <img src="https://img.shields.io/badge/pgvector-336791?style=flat" /> |
 | **工具链** | <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/CI/CD-2088FF?style=flat" /> <img src="https://img.shields.io/badge/LangSmith-000000?style=flat" /> |
 
-## 💻 个人项目
+##  个人项目
 - **NexusSurf**: LLM 驱动的智能浏览器自动化代理，接入 Playwright MCP，采用 ReAct 架构
 - **招投标管理系统**: 基于 SpringBoot 的多企业招投标全流程管理平台
 
-## 🚀 近期开源贡献
+##  近期开源贡献
 <!--START_SECTION:activity-->
 1. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
 2. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
