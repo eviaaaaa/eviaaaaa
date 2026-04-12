@@ -29,7 +29,7 @@
 4. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 5. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
 6. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-7. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/CoPaw/pull/936) in [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw)
+7. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/QwenPaw/pull/936) in [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)
 8. [refactor(word): lazy-load DOCX images to reduce peak memory without changing output](https://github.com/infiniflow/ragflow/pull/13233) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 9. [fix(heartbeat): solve session context loss & wake coalescing drop](https://github.com/openclaw/openclaw/pull/11888) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
 10. [fix: remove 10-item display limit in Agent Canvas configuration tables](https://github.com/infiniflow/ragflow/pull/13049) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
