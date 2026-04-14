@@ -23,16 +23,5 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
-2. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
-3. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-4. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-5. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
-6. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-7. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/QwenPaw/pull/936) in [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)
-8. [refactor(word): lazy-load DOCX images to reduce peak memory without changing output](https://github.com/infiniflow/ragflow/pull/13233) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-9. [fix(heartbeat): solve session context loss & wake coalescing drop](https://github.com/openclaw/openclaw/pull/11888) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
-10. [fix: remove 10-item display limit in Agent Canvas configuration tables](https://github.com/infiniflow/ragflow/pull/13049) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-
-> *✨ 以上仅展示最近的 10 条 PR 记录。*
+1. 暂无可展示的 PR
 <!--END_SECTION:activity-->
