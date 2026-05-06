@@ -23,16 +23,16 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
-2. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-3. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
-4. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-5. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-6. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
-7. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-8. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/QwenPaw/pull/936) in [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)
-9. [refactor(word): lazy-load DOCX images to reduce peak memory without changing output](https://github.com/infiniflow/ragflow/pull/13233) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-10. [fix(heartbeat): solve session context loss & wake coalescing drop](https://github.com/openclaw/openclaw/pull/11888) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
+1. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
+2. [docs: warn about quoting .env values containing special characters](https://github.com/Ronchy2000/epic-freebies-helper/pull/10) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
+3. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
+4. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+5. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
+6. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+7. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+8. [fix(heartbeat): propagate sessionKey in exec/hooks to fix async context loss](https://github.com/openclaw/openclaw/pull/21682) in [openclaw/openclaw](https://github.com/openclaw/openclaw)
+9. [Refa: implement unified lazy image loading for Docx parsers (qa/manual)](https://github.com/infiniflow/ragflow/pull/13329) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+10. [fix(console): resolve table checkbox overlapping issue in sessions page](https://github.com/agentscope-ai/QwenPaw/pull/936) in [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)
 
 > *✨ 以上仅展示最近的 10 条 PR 记录。*
 <!--END_SECTION:activity-->
