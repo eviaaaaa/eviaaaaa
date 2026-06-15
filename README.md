@@ -23,9 +23,9 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
-2. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-3. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+1. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+2. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
+3. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 4. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 5. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
 6. [docs: warn about quoting .env values containing special characters](https://github.com/Ronchy2000/epic-freebies-helper/pull/10) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
