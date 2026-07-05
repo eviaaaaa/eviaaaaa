@@ -23,16 +23,16 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-2. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-3. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
-4. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-5. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
-6. [docs: warn about quoting .env values containing special characters](https://github.com/Ronchy2000/epic-freebies-helper/pull/10) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
-7. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
-8. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
-9. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-10. [Fix: align MCP tool call timeout and handle empty content    ](https://github.com/infiniflow/ragflow/pull/13899) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+1. [fix(inference): only set JSON response_format for schema requests](https://github.com/karakeep-app/karakeep/pull/2926) in [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
+2. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+3. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+4. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
+5. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+6. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
+7. [docs: warn about quoting .env values containing special characters](https://github.com/Ronchy2000/epic-freebies-helper/pull/10) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
+8. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
+9. [Fix: 校准《GB/T 4754-2017 国家行业分类》一维表的历史录入错漏及新老版本混淆](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries/pull/2) in [wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries](https://github.com/wintterHub/GB-T4754-2017-Classification-of-National-Economic-Industries)
+10. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 
 > *✨ 以上仅展示最近的 10 条 PR 记录。*
 <!--END_SECTION:activity-->
