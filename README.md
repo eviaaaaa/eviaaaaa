@@ -24,15 +24,15 @@
 ##  近期开源贡献
 <!--START_SECTION:activity-->
 1. [net/netmon: poll interfaces after wake](https://github.com/MetaCubeX/tailscale/pull/1) in [MetaCubeX/tailscale](https://github.com/MetaCubeX/tailscale)
-2. [fix(inference): only set JSON response_format for schema requests](https://github.com/karakeep-app/karakeep/pull/2926) in [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
-3. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-4. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-5. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
-6. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-7. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
-8. [docs: warn about quoting .env values containing special characters](https://github.com/Ronchy2000/epic-freebies-helper/pull/10) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
-9. [fix(orchestrator): defer cache commit to prevent state pollution on rollback](https://github.com/MiroMindAI/MiroThinker/pull/121) in [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
-10. [Fix: reject empty Bearer tokens in MCP headers](https://github.com/infiniflow/ragflow/pull/13895) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+2. [feat(integration): 完成 PandaAI 与 Bocha 运行验收](https://github.com/FinLens-team/Mandune/pull/37) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+3. [feat(long-card): 实现观象长笺主题展示](https://github.com/FinLens-team/Mandune/pull/44) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+4. [feat(providers): 接入中立市场与事件证据](https://github.com/FinLens-team/Mandune/pull/42) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+5. [fix(inference): only set JSON response_format for schema requests](https://github.com/karakeep-app/karakeep/pull/2926) in [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
+6. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+7. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+8. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
+9. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+10. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
 
 > *✨ 以上仅展示最近的 10 条 PR 记录。*
 <!--END_SECTION:activity-->
