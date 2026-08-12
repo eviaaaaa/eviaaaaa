@@ -23,16 +23,16 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [net/netmon: poll interfaces after wake](https://github.com/MetaCubeX/tailscale/pull/1) in [MetaCubeX/tailscale](https://github.com/MetaCubeX/tailscale)
-2. [feat(integration): 完成 PandaAI 与 Bocha 运行验收](https://github.com/FinLens-team/Mandune/pull/37) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
-3. [feat(long-card): 实现观象长笺主题展示](https://github.com/FinLens-team/Mandune/pull/44) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
-4. [feat(providers): 接入中立市场与事件证据](https://github.com/FinLens-team/Mandune/pull/42) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
-5. [fix(inference): only set JSON response_format for schema requests](https://github.com/karakeep-app/karakeep/pull/2926) in [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
-6. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-7. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-8. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
-9. [fix(agent): handle duplicate MCP tool names](https://github.com/infiniflow/ragflow/pull/14217) in [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
-10. [Fix/claim flow modal and glm area select](https://github.com/Ronchy2000/epic-freebies-helper/pull/11) in [Ronchy2000/epic-freebies-helper](https://github.com/Ronchy2000/epic-freebies-helper)
+1. [feat(sysproxy): make bypass rules visible and editable](https://github.com/clash-verge-rev/clash-verge-rev/pull/7731) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+2. [fix(core): avoid false mixed-port fallback after quickly relaunching Clash](https://github.com/clash-verge-rev/clash-verge-rev/pull/7732) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+3. [net/netmon: poll interfaces after wake](https://github.com/MetaCubeX/tailscale/pull/1) in [MetaCubeX/tailscale](https://github.com/MetaCubeX/tailscale)
+4. [feat(integration): 完成 PandaAI 与 Bocha 运行验收](https://github.com/FinLens-team/Mandune/pull/37) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+5. [feat(long-card): 实现观象长笺主题展示](https://github.com/FinLens-team/Mandune/pull/44) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+6. [feat(providers): 接入中立市场与事件证据](https://github.com/FinLens-team/Mandune/pull/42) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
+7. [fix(inference): only set JSON response_format for schema requests](https://github.com/karakeep-app/karakeep/pull/2926) in [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
+8. [fix(auxiliary): address stream compression review feedback](https://github.com/NousResearch/hermes-agent/pull/45618) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+9. [fix: stream context compression summaries to avoid timeouts](https://github.com/NousResearch/hermes-agent/pull/27730) in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+10. [chore: rename naxussurf → daiboo + CI workflow](https://github.com/eviaaaaa/Daiboo/pull/1) in [eviaaaaa/Daiboo](https://github.com/eviaaaaa/Daiboo)
 
 > *✨ 以上仅展示最近的 10 条 PR 记录。*
 <!--END_SECTION:activity-->
