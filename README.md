@@ -23,8 +23,8 @@
 
 ##  近期开源贡献
 <!--START_SECTION:activity-->
-1. [feat(sysproxy): make bypass rules visible and editable](https://github.com/clash-verge-rev/clash-verge-rev/pull/7731) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
-2. [fix(core): avoid false mixed-port fallback after quickly relaunching Clash](https://github.com/clash-verge-rev/clash-verge-rev/pull/7732) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+1. [fix(core): avoid false mixed-port fallback after quickly relaunching Clash](https://github.com/clash-verge-rev/clash-verge-rev/pull/7732) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+2. [feat(sysproxy): make bypass rules visible and editable](https://github.com/clash-verge-rev/clash-verge-rev/pull/7731) in [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
 3. [net/netmon: poll interfaces after wake](https://github.com/MetaCubeX/tailscale/pull/1) in [MetaCubeX/tailscale](https://github.com/MetaCubeX/tailscale)
 4. [feat(integration): 完成 PandaAI 与 Bocha 运行验收](https://github.com/FinLens-team/Mandune/pull/37) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
 5. [feat(long-card): 实现观象长笺主题展示](https://github.com/FinLens-team/Mandune/pull/44) in [FinLens-team/Mandune](https://github.com/FinLens-team/Mandune)
