@@ -23,14 +23,9 @@
 
 ## 技术栈
 
-**AI 与智能体**<br />
-`AI Agents` · `RAG` · `MCP` · `LangChain` · `LangGraph` · `PyTorch`
-
-**语言与后端**<br />
-<img height="42" src="https://skillicons.dev/icons?i=python,java,cpp,fastapi,spring&theme=dark" alt="Python, Java, C++, FastAPI and Spring Boot" />
-
-**数据与工程**<br />
-<img height="42" src="https://skillicons.dev/icons?i=postgres,mysql,redis,elasticsearch,docker,linux&theme=dark" alt="PostgreSQL, MySQL, Redis, Elasticsearch, Docker and Linux" />
+**AI 应用**&nbsp;&nbsp;`Agents` `RAG` `MCP` `LangChain` `LangGraph` `PyTorch`<br />
+**后端开发**&nbsp;&nbsp;`Python` `FastAPI` `Java` `Spring Boot` `REST API`<br />
+**数据与部署**&nbsp;&nbsp;`PostgreSQL` `MySQL` `Redis` `Elasticsearch` `Docker` `Linux`
 
 ## 个人项目
 
