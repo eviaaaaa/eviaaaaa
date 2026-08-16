@@ -14,11 +14,14 @@
 
 ## 部分开源贡献
 
-- **[RAGFlow：通过 DOCX 图片懒加载降低峰值内存](https://github.com/infiniflow/ragflow/pull/13233)** — 重构 Word 文档图片解析链路，在保持输出一致的前提下降低图片密集型文档的峰值内存占用。
-- **[Clash Verge Rev：修复快速重启时的 mixed-port 误判](https://github.com/clash-verge-rev/clash-verge-rev/pull/7732)** — 修正残留 TCP 连接状态导致的端口冲突误判，使端口探测行为与实际监听语义保持一致。
-- **[Karakeep：修复结构化输出的模型兼容问题](https://github.com/karakeep-app/karakeep/pull/2926)** — 调整 `response_format` 设置逻辑，兼容 DeepSeek 等 OpenAI-compatible providers。
-- **[RAGFlow：解决多个 MCP Server 的工具重名冲突](https://github.com/infiniflow/ragflow/pull/14217)** — 避免同名 MCP 工具注册覆盖及重复函数名暴露给 LLM。
-- **[RAGFlow：通过 Tika 支持旧版 `.ppt` 文档解析](https://github.com/infiniflow/ragflow/pull/12932)** — 补充 OLE2 PowerPoint 解析能力，替代已移除的 Aspose 依赖。
+- **[Clash Verge Rev：修复快速重启时的 mixed-port 误判](https://github.com/clash-verge-rev/clash-verge-rev/pull/7732)** — 对齐 Unix TCP 端口探测与真实监听语义，兼顾残留连接复用及 macOS 地址重叠冲突检测。
+- **[RAGFlow：通过 DOCX 图片懒加载降低峰值内存](https://github.com/infiniflow/ragflow/pull/13233)** — 引入惰性图片抽象，在保持解析输出一致的前提下降低图片密集型文档的峰值内存占用。
+- **[RAGFlow：统一 DOCX 解析器的图片懒加载链路](https://github.com/infiniflow/ragflow/pull/13329)** — 将 QA 与 manual 解析策略迁移到统一抽象，消除重复实现并补充损坏图片流的安全回退。
+- **[RAGFlow：解决多个 MCP Server 的工具重名冲突](https://github.com/infiniflow/ragflow/pull/14217)** — 分离 LLM 侧唯一函数名与服务端原始工具名，避免注册覆盖并保持 MCP 调用正确分发。
+- **[Karakeep：修复结构化输出的模型兼容问题](https://github.com/karakeep-app/karakeep/pull/2926)** — 仅在存在 schema 时启用 JSON response format，兼容 DeepSeek 等 OpenAI-compatible providers。
+- **[RAGFlow：通过 Tika 支持旧版 `.ppt` 文档解析](https://github.com/infiniflow/ragflow/pull/12932)** — 为 OLE2 PowerPoint 增加无新依赖的文本解析回退，替代已移除的 Aspose 路径。
+- **[RAGFlow：修复 MCP 调用超时与空结果处理](https://github.com/infiniflow/ragflow/pull/13899)** — 将外部超时传递到实际 MCP 请求，并避免空内容响应触发越界异常。
+- **[Epic Freebies Helper：修复领取弹窗与视觉验证码坐标转换](https://github.com/Ronchy2000/epic-freebies-helper/pull/11)** — 处理阻塞式设备弹窗，并将 GLM 区域框转换为 hCaptcha 所需的点击坐标。
 
 ## 技术栈
 
