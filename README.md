@@ -21,12 +21,6 @@
 - **[RAGFlow：修复 MCP 调用超时与空结果处理](https://github.com/infiniflow/ragflow/pull/13899)** — 将外部超时传递到实际 MCP 请求，并避免空内容响应触发越界异常。
 - **[Epic Freebies Helper：修复领取弹窗与视觉验证码坐标转换](https://github.com/Ronchy2000/epic-freebies-helper/pull/11)** — 处理阻塞式设备弹窗，并将 GLM 区域框转换为 hCaptcha 所需的点击坐标。
 
-## 技术栈
-
-**AI 应用**&nbsp;&nbsp;`Agents` `RAG` `MCP` `LangChain` `LangGraph` `PyTorch`<br />
-**后端开发**&nbsp;&nbsp;`Python` `FastAPI` `Java` `Spring Boot` `REST API`<br />
-**数据与部署**&nbsp;&nbsp;`PostgreSQL` `MySQL` `Redis` `Elasticsearch` `Docker` `Linux`
-
 ## 个人项目
 
 - **[满懂（Mandune）](https://github.com/FinLens-team/Mandune)**：基于证据的个人持仓复盘与风险边界分析应用，支持多主题报告、行情上下文、MCP/Atlas 图鉴和可追溯的分析结果。
