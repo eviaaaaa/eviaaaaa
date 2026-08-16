@@ -4,13 +4,11 @@
 
 **AI 应用开发 · Python 后端开发**
 
+关注 AI Agent、RAG、MCP 与后端工程，喜欢从实际问题出发完成分析、实现与验证。
+
 [![Email](https://img.shields.io/badge/Email-w2278596667%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:w2278596667@gmail.com)
 
 </div>
-
-## 关于我
-
-关注 AI Agent、RAG、MCP 与后端工程，喜欢从实际问题出发完成分析、实现与验证。
 
 ## 部分开源贡献
 
@@ -25,26 +23,14 @@
 
 ## 技术栈
 
-<div align="center">
+**AI 与智能体**<br />
+`AI Agents` · `RAG` · `MCP` · `LangChain` · `LangGraph` · `PyTorch`
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,pytorch,fastapi,spring,postgres,mysql,redis,elasticsearch,docker,linux&perline=6&theme=dark" alt="Python, Java, C++, PyTorch, FastAPI, Spring Boot, PostgreSQL, MySQL, Redis, Elasticsearch, Docker and Linux" />
+**语言与后端**<br />
+<img height="42" src="https://skillicons.dev/icons?i=python,java,cpp,fastapi,spring&theme=dark" alt="Python, Java, C++, FastAPI and Spring Boot" />
 
-<br /><br />
-
-<code>AI Agents</code>&nbsp;
-<code>RAG</code>&nbsp;
-<code>MCP</code>&nbsp;
-<code>LangChain</code>&nbsp;
-<code>LangGraph</code>
-
-</div>
-
-<br />
-
-| AI Engineering | Backend Systems | Data & Infrastructure |
-| :---: | :---: | :---: |
-| Agent 工作流 · RAG · MCP | Python · FastAPI · Spring Boot | PostgreSQL · Redis · Elasticsearch |
-| LangChain · LangGraph · PyTorch | Java · REST API · 服务端工程 | MySQL · Docker · Linux |
+**数据与工程**<br />
+<img height="42" src="https://skillicons.dev/icons?i=postgres,mysql,redis,elasticsearch,docker,linux&theme=dark" alt="PostgreSQL, MySQL, Redis, Elasticsearch, Docker and Linux" />
 
 ## 个人项目
 
