@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm eviaaaaa 👋
+# Hi, I'm evilhero 👋
 
 **AI 应用开发 · Python 后端开发**
 
@@ -22,30 +22,26 @@
 
 ## 技术栈
 
-**语言**
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,java,cpp,pytorch,fastapi,spring,postgres,mysql,redis,elasticsearch,docker,linux&perline=6&theme=dark" alt="Python, Java, C++, PyTorch, FastAPI, Spring Boot, PostgreSQL, MySQL, Redis, Elasticsearch, Docker and Linux" />
 
-**AI 与后端**
+<br /><br />
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-![MCP](https://img.shields.io/badge/MCP-6B5CE7?style=flat)
-![RAG](https://img.shields.io/badge/RAG-4285F4?style=flat)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+<code>AI Agents</code>&nbsp;
+<code>RAG</code>&nbsp;
+<code>MCP</code>&nbsp;
+<code>LangChain</code>&nbsp;
+<code>LangGraph</code>
 
-**数据与工程**
+</div>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+<br />
+
+| AI Engineering | Backend Systems | Data & Infrastructure |
+| :---: | :---: | :---: |
+| Agent 工作流 · RAG · MCP | Python · FastAPI · Spring Boot | PostgreSQL · Redis · Elasticsearch |
+| LangChain · LangGraph · PyTorch | Java · REST API · 服务端工程 | MySQL · Docker · Linux |
 
 ## 个人项目
 
