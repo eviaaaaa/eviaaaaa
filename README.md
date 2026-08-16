@@ -2,9 +2,9 @@
 
 # Hi, I'm evilhero 👋
 
-**AI 应用开发 · Python 后端开发**
+**AI 应用开发 · AI 全栈开发**
 
-关注 AI Agent、RAG、MCP 与后端工程，喜欢从实际问题出发完成分析、实现与验证。
+关注 AI 产品与智能应用，喜欢从真实问题出发，完成从想法、实现到验证的完整闭环。
 
 [![Email](https://img.shields.io/badge/Email-w2278596667%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:w2278596667@gmail.com)
 
